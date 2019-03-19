@@ -1,0 +1,120 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/timesvl/TimeSVL.h
+timesvl/api.h
+-
+gnuradio/block.h
+-
+
+../include/timesvl/api.h
+gnuradio/attributes.h
+-
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/TimeSVL_impl.cc
+config.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/config.h
+gnuradio/io_signature.h
+-
+boost/math/common_factor_rt.hpp
+-
+gnuradio/io_signature.h
+-
+cstdio
+-
+TimeSVL_impl.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/TimeSVL_impl.h
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/TimeSVL_impl.h
+timesvl/TimeSVL.h
+-
+time_hypervisor.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_hypervisor.h
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/spectrum_map.cc
+gnuradio/thread/thread.h
+-
+spectrum_map.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/spectrum_map.h
+gnuradio/io_signature.h
+-
+cstdio
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdexcept
+-
+stdio.h
+-
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/spectrum_map.h
+timesvl/TimeSVL.h
+-
+boost/thread/mutex.hpp
+-
+string
+-
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_hypervisor.cc
+spectrum_map.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/spectrum_map.h
+time_parameter.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_parameter.h
+time_hypervisor.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_hypervisor.h
+gnuradio/io_signature.h
+-
+cstdio
+-
+gnuradio/io_signature.h
+-
+boost/math/common_factor_rt.hpp
+-
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_hypervisor.h
+timesvl/TimeSVL.h
+-
+spectrum_map.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/spectrum_map.h
+time_parameter.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_parameter.h
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_parameter.cc
+time_parameter.h
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_parameter.h
+gnuradio/thread/thread.h
+-
+gnuradio/io_signature.h
+-
+cstdio
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdexcept
+-
+stdio.h
+-
+
+/media/tamanna/Seagate Expansion Drive/gr-timesvl/lib/time_parameter.h
+timesvl/TimeSVL.h
+-
+fstream
+-
+boost/thread/mutex.hpp
+-
+cstring
+-
+
