@@ -186,7 +186,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>500000</value>
+      <value>1e6</value>
     </param>
   </block>
   <block>
@@ -2411,7 +2411,7 @@ os.chdir(script_path)
     </param>
     <param>
       <key>spectrum_map</key>
-      <value>/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Time_maps/output_time_map4.txt</value>
+      <value>/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Time_maps/output_time_map1.txt</value>
     </param>
     <param>
       <key>time_options</key>

@@ -28,8 +28,8 @@ namespace gr
 		//std::vector<std::vector<int>> ninput_items;
 		//std::vector<std::vector<const void *>> input_items;
 		//std::vector<std::vector<void *>> output_items;			
-		std::vector<std::vector<gr_complex>> d_items_in;
-		std::vector<std::vector<gr_complex>> d_items_out;
+		std::vector<std::vector<gr_complex> > d_items_in;
+		std::vector<std::vector<gr_complex> > d_items_out;
 	public:
 		
 		hypervisor();

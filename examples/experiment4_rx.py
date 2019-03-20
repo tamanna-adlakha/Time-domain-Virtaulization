@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Experiment4 Rx
-# Generated: Fri Mar 15 08:50:08 2019
+# Generated: Tue Mar 19 16:27:04 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -75,7 +75,7 @@ class experiment4_rx(gr.top_block, Qt.QWidget):
         ##################################################
         self.time_preamble = time_preamble =  [0.125000+0.000000j, 0.522104-0.148216j, -0.495528+0.114832j, -0.267916+0.091700j, 0.236544-0.138456j, -0.098500+0.473800j, 0.476480-0.225344j, -0.187516+0.035372j, 0.051776-0.353552j, -0.104936+0.059916j,  0.228684+0.117504j, -0.530912+0.560756j, 0.359128+0.015872j, -0.132852+0.632840j, -0.105164-0.368872j, 0.368272-0.032412j, 0.125000+0.750000j, 0.463968+0.457792j, 0.151476-0.430948j, 0.685052+0.238524j, 0.494428+0.119428j, -0.557540-0.050056j, 0.416348+0.017368j, 0.104256-0.568836j, -0.301776-0.353552j, 0.079812+0.451516j, 0.439152+0.528072j, 0.642060+0.178484j, -0.090096+0.465096j, -0.446492+0.305776j, -0.111440-0.093688j, -0.538848-0.320228j, 0.125000+0.000000j, -0.538848+0.320228j, -0.111440+0.093688j, -0.446492-0.305776j, -0.090096-0.465096j, 0.642060-0.178484j, 0.439152-0.528072j, 0.079812-0.451516j, -0.301776+0.353552j, 0.104256+0.568836j, 0.416348-0.017368j, -0.557540+0.050056j, 0.494428-0.119428j, 0.685052-0.238524j, 0.151476+0.430948j, 0.463968-0.457792j, 0.125000-0.750000j, 0.368272+0.032412j, -0.105164+0.368872j, -0.132852-0.632840j, 0.359128-0.015872j, -0.530912-0.560756j, 0.228684-0.117504j, -0.104936-0.059916j, 0.051776+0.353552j, -0.187516-0.035372j, 0.476480+0.225344j, -0.098500-0.473800j, 0.236544+0.138456j, -0.267916-0.091700j, -0.495528-0.114832j, 0.522104+0.148216j]
         self.threshold = threshold = 1
-        self.samp_rate = samp_rate = 500000
+        self.samp_rate = samp_rate = 1e6
         self.preamble_len = preamble_len = 64
         self.packet_len = packet_len = 1024
         self.length = length = 96
@@ -88,7 +88,7 @@ class experiment4_rx(gr.top_block, Qt.QWidget):
         self.top_grid_layout.addWidget(self._threshold_win, 0, 0, 1, 2)
         [self.top_grid_layout.setRowStretch(r,1) for r in range(0,1)]
         [self.top_grid_layout.setColumnStretch(c,1) for c in range(0,2)]
-        self.timesvl_TimeSVL_0 = timesvl.TimeSVL(gr.sizeof_gr_complex*1, 1, '/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Time_maps/output_time_map4.txt', '/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Input_Output parameters/output_1.txt')
+        self.timesvl_TimeSVL_0 = timesvl.TimeSVL(gr.sizeof_gr_complex*1, 1, '/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Time_maps/output_time_map1.txt', '/media/tamanna/Seagate Expansion Drive/gr-timesvl/examples/Input_Output parameters/output_1.txt')
         self.rational_resampler_xxx_0_0 = filter.rational_resampler_ccc(
                 interpolation=1,
                 decimation=1,
