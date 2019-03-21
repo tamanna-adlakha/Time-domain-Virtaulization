@@ -4,7 +4,7 @@
 # GNU Radio Python Flow Graph
 # Title: recursion
 # Author: tamanna
-# Generated: Sun Mar 10 10:47:15 2019
+# Generated: Thu Mar 21 12:38:03 2019
 ##################################################
 
 from distutils.version import StrictVersion
@@ -71,7 +71,7 @@ class experiment2(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.samp_rate = samp_rate = 16000
+        self.samp_rate = samp_rate = 1e6
         self.length = length = 96
 
         ##################################################

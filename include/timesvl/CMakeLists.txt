@@ -22,5 +22,6 @@
 ########################################################################
 install(FILES
     api.h
-    TimeSVL.h DESTINATION include/timesvl
+    TimeSVL.h
+    DESTINATION include/timesvl
 )
